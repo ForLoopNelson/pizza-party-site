@@ -25,6 +25,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Alumni Sans", sans-serif}
   text-decoration: none;
 }
 
+footer a  {
+  text-decoration: none;
+}
+
 
 
 /* Hide on small screens */
@@ -36,11 +40,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Alumni Sans", sans-serif}
 
 /* Custom styles for Header */
 .bg-img {
-  background-image: url('assets/pizza_splash.jpg');
+  background-image: url('assets/amirali-mirhashemian-XtLPfib7OuM-unsplash.jpg');
   background-size:cover;
-  background-position:center;
+  background-position: center;
   min-height: 100vh;
   color: black;
+}
+
+.display-1 {
+  font-weight: 500;
 }
 
 .btn {
@@ -102,4 +110,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Alumni Sans", sans-serif}
 .extra-large {
   height: 60px;
   font-size: 1.8rem;
+}
+
+@media(max-width:460px) {
+  .display-1 {
+  font-weight: bolder;
+}
 }
